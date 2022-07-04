@@ -4,9 +4,11 @@ import Footer from "../Footer/Footer";
 const Home = () => {
   return (
     <>
-      <AppNav />
-      <HomePage />
-      <Footer />
+      <div className="flex flex-col h-screen justify-between">
+        <AppNav />
+        <HomePage />
+        <Footer />
+      </div>
     </>
   );
 };
