@@ -1,5 +1,5 @@
 .checkbox_div {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 24px;
   height: 24px;
   position: relative;
@@ -25,6 +25,14 @@
   border-radius: 50%;
 }
 
+.checkbox:hover ~ .checkbox_span {
+  background-color: rgb(241, 241, 241);
+}
+
+.checkbox:active ~ .checkbox_span {
+  background-color: rgb(175, 175, 175);
+}
+
 .checkbox:checked ~ .checkbox_span {
-  background-color: black;
+  background-color:rgb(229 229 229);
 }

@@ -61,8 +61,9 @@ const ModalBackdrop = styled.div`
 
 const ModalContent = styled.div`
 	background: white;
-	width: 500px;
-	height: 600px;
+	width: 280px;
+	min-width: 260px;
+	max-width: 500px;
 	border-radius: 5px;
 	padding: 15px;
 	z-index: 1;
