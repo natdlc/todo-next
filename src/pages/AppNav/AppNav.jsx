@@ -1,4 +1,4 @@
-import AppNavComp from "../../components/AppNav/AppNavComp";
+import AppNavComp from "../../components/common/AppNav/AppNavComp";
 
 const AppNav = () => {
   return ( 

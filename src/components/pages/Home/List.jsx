@@ -1,6 +1,6 @@
 import { useQuery } from "@apollo/client";
 import Item from "./Item";
-import getItemsQry from "../gql/getItemsQry";
+import getItemsQry from "../../gql/getItemsQry";
 import { useState, useEffect } from "react";
 
 const divClasses = "mb-3 flex flex-col gap-4";

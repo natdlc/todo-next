@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import Checkbox from "../UI/Checkbox";
+import Checkbox from "../../UI/Checkbox";
 const Item = (props) => {
   const doneCheckboxRef = useRef();
   const doneCheckboxHandler = (e) => {
